@@ -115,8 +115,8 @@ MCP remains the preferred path and is not Ultra-only.
 
 ## Safety and plan limits
 
-- Custom retry policy settings require Pro or Ultra. Standard automatic retry
-  behavior remains available on Starter.
+- Custom retry policy settings require Pro, Ultra, or legacy Pro. Standard
+  automatic retry behavior remains available on Starter.
 - Retrying authentication and validation failures usually adds load without
   improving success.
 - Never reduce idempotency retention below the maximum retry window.
